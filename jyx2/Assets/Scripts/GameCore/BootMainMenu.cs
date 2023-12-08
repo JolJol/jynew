@@ -10,6 +10,6 @@ public class BootMainMenu : MonoBehaviour
     {
         m_RootLoadingPanel.gameObject.SetActive(true);
         await Jyx2_UIManager.Instance.GameStart();
-        m_RootLoadingPanel.gameObject.SetActive(false);
+        m_RootLoadingPanel.gameObject.SetActive(false);                                     
     }
 }

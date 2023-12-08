@@ -84,7 +84,7 @@ namespace Jyx2
         {
             if (m_View == null) return;
 
-            var scene = EditorSceneManager.OpenScene("Assets/Scripts/Jyx2Model/ModelPreviewScene.unity",
+            var scene = EditorSceneManager.OpenScene("Assets/Scripts/ResourceManagement/ModelAssetsLogic/ModelPreviewScene.unity",
                 OpenSceneMode.Additive);
 
             var gameObjects = scene.GetRootGameObjects();
